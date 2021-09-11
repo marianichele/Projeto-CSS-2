@@ -1,0 +1,43 @@
+.second-section {
+    display: flex;
+    flex-flow: column;
+    align-content: space-between;
+    align-items: start;
+    justify-content: start;
+  
+    padding: 40px 0 0 73px;
+  
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  .second-section h1 {
+    font-size: 30px;
+    font-weight: 800;
+  
+    padding-bottom: 44px;
+  }
+  
+  .second-section a {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+  
+    font-size: 15.71px;
+    font-weight: 400;
+  }
+  
+  .second-section img{
+    padding-right: 13px;
+  }
+  
+  .second-section_content {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  
+    padding-bottom: 300px;
+  }
+  
+  .second-section_content a {
+    padding-bottom: 27px;
+  }

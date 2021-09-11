@@ -1,0 +1,83 @@
+header {
+    position: relative;
+    z-index: 100;
+  
+    display: flex;
+    flex-flow: row;
+
+    width: 100%;
+}
+  
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    padding: 46px 51px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.first-setion {
+    width: 100%;
+  
+    font-family: 'Roboto Slab', serif;
+}
+  
+.icon {
+    width: 93px;
+    height: 44px;
+}
+  
+.search {
+    display: flex;
+    flex-flow: row;
+  
+    width: 100px;
+    height: 22px;
+  
+    padding-right: 300px;
+
+}
+  
+#search_store {
+    border: none;
+    outline: none;
+    background: none;
+  
+    font-size: 17px;
+    font-weight: 400;
+}
+  
+.search img {
+    padding-right: 17px;
+}
+  
+.first-links a {
+    color: #000000;
+  
+    font-size: 17px;
+    font-weight: 400;
+  
+    padding: 16px;
+}
+  
+  
+.first-images a {
+    width: 24px;
+    height: 24px;
+  
+    padding-left: 25px;
+}
+  
+.content {
+    display: flex;
+}
+  
+.products {
+    text-decoration: overline;
+}
